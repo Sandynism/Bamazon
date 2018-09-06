@@ -17,13 +17,11 @@ connection.connect(function(err) {
 	start()
 })
 
-// starts node app and calls the prompt function.
 function start() {
 	console.log("\nWELCOME TO THE MANAGERS PORTAL\n".bold.green)
 	prompt()
 }
 
-// function that prompts the manager for an action.
 function prompt() {
 	inq.prompt(
 		{
@@ -47,7 +45,6 @@ function prompt() {
 	})
 }
 
-// function that uses console.table to log the table to the terminal.
 function printTable(stock) {
 	let items = []
 	let headings = ["Item ID", "Product", "Department", "Price ($)", "Quantity Available"]
@@ -69,7 +66,6 @@ function showItems() {
 	})
 }
 
-// function that prompts the manager to view the menu.
 function menu() {
 	inq.prompt(
 		{

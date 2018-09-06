@@ -7,7 +7,6 @@ let itemQuantity = 0
 let selected
 let statement
 
-// creates the connection to the sql database.
 let connection = mysql.createConnection({
 	host: "localhost",
 	port: 3306,
@@ -22,7 +21,6 @@ connection.connect(function(err) {
 	start()
 })
 
-//starts the node store and provides user options.
 function start() {
 	console.log("\nWELCOME TO THE BAMAZON STORE!\n".bold.green)
 	inq.prompt(
