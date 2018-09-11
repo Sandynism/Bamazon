@@ -19,4 +19,4 @@ Bamazon is a command line node application using MySQL and npm packages to creat
 
 ## Authors
 
-* **Sandy Yeung** - *JS/Node.js* - [Sandy Yeung](https://github.com/Sandynism)
+* **Sandy Yeung** - *JS/Node.js* - [Github](https://github.com/Sandynism)
